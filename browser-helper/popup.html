@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Naukri page import</title><link rel="stylesheet" href="popup.css"></head><body>
+<h1>Import this Naukri page</h1><p>Open Naukri results or a complete job description in this tab, then capture its job data.</p>
+<p class="small">Runs only when you click Capture. It reads job-page content and does not read cookies, passwords or form values.</p>
+<button id="capture">Capture job data</button><p id="status" role="status"></p><div id="preview"></div>
+<div id="send" hidden><label>Local app address<input id="destination" value="http://localhost:3000" spellcheck="false"></label><button id="open">Open Job Applier with these jobs</button><button id="download">Save capture file</button><p class="small">Only localhost or 127.0.0.1 is allowed. You will review the import in the app. This helper does not fetch blocked pages or submit applications.</p></div>
+<script type="module" src="popup.mjs"></script></body></html>

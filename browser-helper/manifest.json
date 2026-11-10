@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Job Applier - Naukri page import",
+  "version": "0.1.0",
+  "description": "Import job data from the Naukri page you explicitly choose to capture. No cookies, credentials or background crawling.",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_popup": "popup.html", "default_title": "Import this Naukri page" }
+}

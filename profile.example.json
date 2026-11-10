@@ -1,0 +1,7 @@
+{
+  "name": "Your name",
+  "skills": ["Python", "SQL", "Excel"],
+  "roles": ["Data Analyst", "Business Analyst"],
+  "locations": ["Bengaluru", "Remote"],
+  "resume": "Replace this with your resume text, or omit this field and upload the resume separately."
+}
